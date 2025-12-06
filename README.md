@@ -1,11 +1,23 @@
-<div align="center">
+# Dentistry.Exchange
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+The Operating System for Modern Dentistry. A multi-tenant platform featuring clinic directories, bookings, and recruitment.
 
-  <h1>Built with AI Studio</h2>
+## Version
+**0.0.1** (Green Heartbeat)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Dependencies
+Run the following command to install the required packages:
+```bash
+npm install react-router-dom @supabase/supabase-js lucide-react
+```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Architecture
+- **Virtual Router**: Simulates subdomains via path prefixes:
+  - `/` -> `www` (Landing)
+  - `/clinics` -> `clinics` (Directory)
+  - `/admin` -> `admin` (Platform)
+  - `/recruit` -> `recruit` (Jobs)
 
-</div>
+## Setup
+1. Configure `lib/supabaseClient.ts` with your Supabase credentials.
+2. Run `npm start`.
