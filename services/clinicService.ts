@@ -18,7 +18,7 @@ export interface ClinicResult {
 }
 
 // ✅ Correct Key
-const GOOGLE_API_KEY = 'AIzaSyDwi-_Yb4empZJ6pRoLSOeNcnky7YE5ZGM';
+const GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 /**
  * Searches for clinics using the "Harvester" logic:
